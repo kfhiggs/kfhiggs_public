@@ -1,0 +1,1 @@
+get-ciminstance -class win32_quickfixengineering | select-object HotFixId, Description, InstalledOn | sort -property InstalledOn | ft -autosize

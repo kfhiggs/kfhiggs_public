@@ -1,0 +1,3 @@
+set-adfssslcertificate -thumbprint 501caf18ff0a0d0f91a5c4808c5dea320bc8f8ce
+
+set-webapplicationproxysslcertificate -thumbprint 501caf18ff0a0d0f91a5c4808c5dea320bc8f8ce

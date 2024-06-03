@@ -1,0 +1,2 @@
+Test-SPContentDatabase -Identity WSS_Content_BizPortal
+upgrade-SPContentDatabase -Identity WSS_Content_BizPortal

@@ -1,0 +1,5 @@
+use IdentityServer
+select * from dbo.Roles r
+join dbo.UsersInRoles uir on r.RoleID = uir.RoleID
+join dbo.Users u on u.UserId = uir.UserId
+where u.UserName = 'nconnect'
